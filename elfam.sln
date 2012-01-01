@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elfam.web", "elfam.web\elfam.web.csproj", "{3CFBE034-58DE-425A-9222-B5F92814CF02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{593DCEA7-C933-46F3-939F-D8172399AB05}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\my downloads\develop tools\NHibernate-2.1.2.GA-src\default.build = ..\..\my downloads\develop tools\NHibernate-2.1.2.GA-src\default.build
+		..\..\my downloads\develop tools\NHibernate-2.1.2.GA-src\releasenotes.txt = ..\..\my downloads\develop tools\NHibernate-2.1.2.GA-src\releasenotes.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elfam.web.tests", "elfam.web.tests\elfam.web.tests.csproj", "{07E72328-3F33-4CA2-82A2-42B6A0F3F981}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Deploy|Any CPU = Deploy|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFBE034-58DE-425A-9222-B5F92814CF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFBE034-58DE-425A-9222-B5F92814CF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFBE034-58DE-425A-9222-B5F92814CF02}.Deploy|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFBE034-58DE-425A-9222-B5F92814CF02}.Deploy|Any CPU.Build.0 = Release|Any CPU
+		{3CFBE034-58DE-425A-9222-B5F92814CF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFBE034-58DE-425A-9222-B5F92814CF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E72328-3F33-4CA2-82A2-42B6A0F3F981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E72328-3F33-4CA2-82A2-42B6A0F3F981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E72328-3F33-4CA2-82A2-42B6A0F3F981}.Deploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E72328-3F33-4CA2-82A2-42B6A0F3F981}.Deploy|Any CPU.Build.0 = Debug|Any CPU
+		{07E72328-3F33-4CA2-82A2-42B6A0F3F981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E72328-3F33-4CA2-82A2-42B6A0F3F981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

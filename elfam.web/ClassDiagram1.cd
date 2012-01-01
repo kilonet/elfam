@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="elfam.web.Models.Income">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAgAAAAAA=</HashCode>
+      <FileName>Models\Income.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="elfam.web.Models.Outcome">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\Outcome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="elfam.web.Models.Order">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIhAAAEgAAAACAAABAQAAAAAAAAAAQDAAAAAQBgAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="elfam.web.Models.Product">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQggACAEgBAAAAQAACAAQJgAAAAAAIAAKAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="elfam.web.Models.OrderLine">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAA=</HashCode>
+      <FileName>Models\OrderLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

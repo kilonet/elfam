@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07E72328-3F33-4CA2-82A2-42B6A0F3F981}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>elfam.web.tests</RootNamespace>
+    <AssemblyName>elfam.web.tests</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Moq, Version=4.0.10827.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL" />
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\elfam.web\Libs\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="nmock, Version=1.0.1721.15437, Culture=neutral" />
+    <Reference Include="nunit.core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.framework, Version=2.5.7.10213, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\elfam.web\Libs\nunit\framework\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=0.0.0.0, Culture=neutral" />
+    <Reference Include="ThoughtWorks.Selenium.IntegrationTests, Version=0.0.0.0, Culture=neutral" />
+    <Reference Include="ThoughtWorks.Selenium.UnitTests, Version=0.0.0.0, Culture=neutral" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoryControllerTest.cs" />
+    <Compile Include="OrderServiceTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Selenuim\CategoryTest.cs" />
+    <Compile Include="SubscriberControllerTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libs\Moq.dll" />
+    <Content Include="Libs\selenium-dotnet-client-driver-1.0.1\nmock.dll" />
+    <Content Include="Libs\selenium-dotnet-client-driver-1.0.1\ThoughtWorks.Selenium.Core.dll" />
+    <Content Include="Libs\selenium-dotnet-client-driver-1.0.1\ThoughtWorks.Selenium.Core.pdb" />
+    <Content Include="Libs\selenium-dotnet-client-driver-1.0.1\ThoughtWorks.Selenium.IntegrationTests.dll" />
+    <Content Include="Libs\selenium-dotnet-client-driver-1.0.1\ThoughtWorks.Selenium.IntegrationTests.pdb" />
+    <Content Include="Libs\selenium-dotnet-client-driver-1.0.1\ThoughtWorks.Selenium.UnitTests.dll" />
+    <Content Include="Libs\selenium-dotnet-client-driver-1.0.1\ThoughtWorks.Selenium.UnitTests.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\elfam.web\elfam.web.csproj">
+      <Project>{3CFBE034-58DE-425A-9222-B5F92814CF02}</Project>
+      <Name>elfam.web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
